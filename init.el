@@ -9,9 +9,17 @@
               tab-width 4          ;;タブ幅4
               indent-tabs-mode nil)  ;;インデントをタブでするかスペースでするか
 
+(add-to-list 'load-path "~/.emacs.d/elisp")
 
 ;;package
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
+
+;;color-theme
+(add-to-list 'load-path "~/.emacs.d/elisp/color-theme-6.6.0")
+(require 'color-theme)
+(color-theme-initialize)
+(color-theme-subtle-hacker)
+
