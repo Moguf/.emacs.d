@@ -25,3 +25,7 @@
 
 ;;auto-complete
 (global-auto-complete-mode t)
+
+;;flycheck
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
