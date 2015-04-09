@@ -23,3 +23,5 @@
 (color-theme-initialize)
 (color-theme-subtle-hacker)
 
+;;auto-complete
+(global-auto-complete-mode t)
