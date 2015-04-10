@@ -1,3 +1,4 @@
+
 ;; fundamental-settings
 (global-set-key "\C-h" 'delete-backward-char)
 (line-number-mode 1)

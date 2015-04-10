@@ -1,4 +1,4 @@
-#!/Users/ono_mac/.emacs.d/.python-environments/default/bin/python
+#!usr/bin/env python
 
 # -*- coding: utf-8 -*-
 import re
