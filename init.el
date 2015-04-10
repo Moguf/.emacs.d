@@ -1,3 +1,4 @@
+
 ;; fundamental-settings
 (global-set-key "\C-h" 'delete-backward-char)
 (line-number-mode 1)
@@ -29,3 +30,6 @@
 ;;flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
+;;jedi
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)
