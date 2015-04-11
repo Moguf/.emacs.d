@@ -1,6 +1,7 @@
-
 ;; fundamental-settings
 (global-set-key "\C-h" 'delete-backward-char)
+(global-set-key "\C-m" 'magit-status)
+
 (line-number-mode 1)
 (column-number-mode 1)
 (tool-bar-mode -1)
