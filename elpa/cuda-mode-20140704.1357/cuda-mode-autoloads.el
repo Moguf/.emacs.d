@@ -1,9 +1,10 @@
 ;;; cuda-mode-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+
 
-;;;### (autoloads nil "cuda-mode" "cuda-mode.el" (21802 43969 0 0))
+;;;### (autoloads (cuda-mode) "cuda-mode" "cuda-mode.el" (21803 23557
+;;;;;;  464728 485000))
 ;;; Generated autoloads from cuda-mode.el
 
 (add-to-list 'auto-mode-alist '("\\.cu\\'" . cuda-mode))
@@ -23,9 +24,16 @@ Key bindings:
 
 ;;;***
 
+;;;### (autoloads nil nil ("cuda-mode-pkg.el") (21803 23557 587964
+;;;;;;  199000))
+
+;;;***
+
+(provide 'cuda-mode-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
+;; coding: utf-8
 ;; End:
 ;;; cuda-mode-autoloads.el ends here
